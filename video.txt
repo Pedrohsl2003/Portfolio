@@ -1,6 +1,0 @@
-TEMPO 23.34
-LINK: https://www.youtube.com/watch?v=Tkp3FDgOueM
-
-PORTABULIDADE COM MOBILE
-
-ICONES: https://boxicons.com/?query=github
