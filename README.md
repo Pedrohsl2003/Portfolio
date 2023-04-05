@@ -8,4 +8,4 @@ Esse é um projeto para criar um site para meus desmonstrar meus projetos.
 
 Confome desenvolvemos o projeto, atualizar quais tecnologias estamos utilizando.
 
-* [Visual Studio Code](https://code.visualstudio.com/) Área de desenvolvimento do site;
+* [Visual Studio Code](https://code.visualstudio.com/): Área de desenvolvimento do site;
