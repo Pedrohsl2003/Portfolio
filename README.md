@@ -8,4 +8,4 @@ Esse é um projeto para criar um site para meus desmonstrar meus projetos.
 
 Confome desenvolvemos o projeto, atualizar quais tecnologias estamos utilizando.
 
-* [Visual Studio Code](https://code.visualstudio.com/): Área de desenvolvimento;
+* [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16): Área de desenvolvimento;
