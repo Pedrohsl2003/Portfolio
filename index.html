@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--========== Barra de Navegação ==========-->
+
+    <header class="header" id="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Pedro <span>Lopes</span></a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="#home" data-target="home">Início</a></li>
+                    <li><a href="#about" data-target="about">Sobre</a></li>
+                    <li><a href="#projects" data-target="projects">Projetos</a></li>
+                    <li><a href="#contact" data-target="contact">Contato</a></li>
+                </ul>
+            </div>
+            <i class="ri-menu-line menu-mobile" id="menu"></i>
+        </nav>
+    </header>
+
+    <!--Início-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Oi, eu sou</h3>
+            <h1>Pedro Lopes.</h1>
+            <div class="text-animate">
+                <h2 class="text-move">Desenvolvedor Front-End</h2>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+            <a href="#about" class="btn">Saiba Mais</a>
+            <div class="social-media">
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                <a href="#"><i class="ri-github-fill"></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="perfil.jpeg" alt="Imagem de Perfil">
+        </div>
+    </section>
+
+    <!--Sobre-->
+    <section class="about" id="about">
+        <h2 class="heading">Sobre <span>Mim</span></h2>
+
+        <div class="about-img">
+            <img src="perfil.jpeg" alt="Imagem de Perfil">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-box">
+            <div class="about-content">
+                <h3>Desenvolvedor Front-End</h3>
+                <p>
+                    Sou um Dev. Front-End apaixonado por programação e sempre em busca de novos aprendizados.
+                    Estou em busca de novas oportunidades para aperfeiçoar minhas habilidades e trabalhar em
+                    projetos desafiadores. Meu objetivo é aprender e me desenvolver na área.
+                </p>
+                <h3><i class="ri-graduation-cap-fill"></i>Formação</h3>
+                <div class="about-education">
+                    <p>Analise e Desenvolvimento de Sistemas - Unicsul</p>
+                    <p>Jan. 2023 a Dez. 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--JavaScript-->
+    <script src="script.js"></script>
+    <!--Text-Move-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,365 @@
+/* ========== FONTES GOOGLE ========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ========== CSS VARIAÇÕES ========== */
+:root {
+    /* ========== Cores ========== */
+    --first-color: #0081cc;
+    --first-color-alt: #27678b;
+    --text-color: #ffffff;
+    --body-color: #0D1117;
+    --container-color: #21232c;
+
+    /* ========== Fontes e Tipografia ========== */
+
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 3rem;
+    --h2-font-size: 1.35rem;
+    --h3-font-size: 2rem;
+    --a-font-size: 1.5rem;
+    --title-font-size: 2rem;
+    --normal-font-size: 1.25rem;
+    --icon-font-size: 2rem;
+
+    /* ========== Espessura Fonte ========== */
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 600;
+
+    /* ========== z index ========== */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+input,
+textarea,
+button,
+body {
+    font-size: var(--normal-font-size);
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+span {
+    color: var(--first-color);
+}
+
+section {
+    padding: 14% 7% 13%;
+}
+
+/*========== Barra de Navegação ==========*/
+
+.navbar {
+    position: absolute;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar a {
+    color: var(--text-color);
+}
+
+.navbar .logo {
+    font-size: var(--title-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 1.5rem;
+}
+
+.nav-links a:hover {
+    color: var(--first-color);
+}
+
+nav a.active {
+    color: var(--first-color);
+}
+
+.navbar .menu-mobile {
+    display: none;
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    width: 2rem;
+}
+
+.navbar.fixed {
+    position: fixed;
+    background: var(--body-color);
+    z-index: var(--z-fixed);
+}
+
+/*========== Início ==========*/
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-img img {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    animation: move 4s ease-in-out infinite;
+}
+
+@keyframes move {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4rem);
+    }
+}
+
+.home-content h3 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-bold);
+}
+
+.home-content h1 {
+    font-size: 3.5rem;
+    font-weight: var(--font-bold);
+}
+
+.home-content .text-animate {
+    position: relative;
+    width: 26rem;
+}
+
+.home-content .text-animate h2 {
+    font-size: 2rem;
+    font-weight: var(--font-bold);
+    color: transparent;
+    -webkit-text-stroke: .7px var(--first-color);
+    background-image: linear-gradient(var(--first-color), var(--first-color));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text; 
+    background-position: -27rem 0;
+    animation: homeBgText 6s linear infinite;
+    animation-delay: 2s;
+}
+
+.home-content .text-animate h2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-right: 2px solid var(--first-color);
+    z-index: -1;
+    animation: homeCursorText 6s linear infinite;
+    animation-delay: 2s;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: .2rem solid var(--first-color);
+    border-radius: 50%;
+    font-size: var(--icon-font-size);
+    color: var(--first-color);
+    margin: 1rem .3rem;
+    transition: .5s ease;
+}
+
+.social-media a:hover {
+    background: var(--first-color);
+    color: var(--container-color);
+    box-shadow: 0 0 1rem var(--first-color);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .3rem;
+    width: 10rem;
+    background: var(--first-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--first-color);
+    font-size: 1.2rem;
+    color: var(--container-color);
+    font-weight: var(--font-bold);
+    transition: .5s ease;
+    text-align: center;
+}
+
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.btn:nth-of-type(2) {
+    margin-left: 1rem;
+}
+
+/*========== Sobre ==========*/
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--container-color);
+    padding-top: 5rem;
+}
+
+.heading {
+    font-size: 3.6rem;
+    font-weight: var(--font-bold);
+}
+
+.about-img {
+    position: relative;
+    width: 26rem;
+    height: 26rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img {
+    width: 50%;
+    border-radius: 50%;
+    border: .2rem solid var(--first-color);
+}
+
+.about-img .circle-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    border-top: .2rem solid var(--container-color);
+    border-bottom: .2rem solid var(--container-color);
+    border-left: .2rem solid var(--first-color);
+    border-right: .2rem solid var(--first-color);
+    animation: aboutSpinner 8s linear infinite;
+}
+
+.about-content {
+    text-align: start;
+}
+
+.about-box {
+    border: .24rem solid var(--first-color);
+    border-radius: 1rem;
+    padding: 0 0 1rem 1rem;
+    width: 100rem;
+    height: 18rem;
+}
+
+.about-content i {
+    font-size: 1.7rem;
+    padding-right: 1rem;
+}
+
+.about-content h3 {
+    font-size: 1.45rem;
+    font-weight: var(--font-semi-bold);
+    padding: 1rem 0 1rem 0;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+}
+
+/*========== Keyframes-Animations ==========*/
+
+@keyframes homeBgText {
+
+    0%,
+    10%,
+    100% {
+        background-position: -27rem 0;
+    }
+
+    65%,
+    85% {
+        background-position: 0 0;
+    }
+
+}
+
+@keyframes homeCursorText {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    65%,
+    78%,
+    85% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    75%,
+    81% {
+        opacity: 0;
+    }
+    
+}
+
+@keyframes aboutSpinner {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/* TALVEZ MELHORAR O CÓDIGO COM SASS 
+CORRIJIR PROBLEMAS DE COMPATIBILIDADE
+COMEÇAR A ÁREA DE PROJETOS */
