@@ -1,6 +1,6 @@
 # SITE PORTFÓLIO
 
-- [Site Portfólio](https://github.com/Pedrohsl2003/Portfolio)
+- [Site Portfólio](https://pedrohsl2003.github.io/Portfolio/)
 
 # Introdução
 
