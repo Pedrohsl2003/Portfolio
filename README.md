@@ -1,6 +1,6 @@
 # SITE PORTFÓLIO
 
-- [Site Portfólio](https://pedrohsl2003.github.io/Portfolio/ target="_blank")
+<a href="https://pedrohsl2003.github.io/Portfolio/" target="_blank">Site Portfólio</a>
 
 # Introdução
 
@@ -12,7 +12,7 @@ No entanto, à medida que o projeto avançava, percebi que era capaz de criar mi
 Ainda não é o resultado que quero para esse projeto, ainda quero mudar muitas coisas e venho tendo ideias novas a cada dia, ainda tem grandes problemas de compatibilidade para resolver, pois copiei algumas poucas ideias de projetos e não sabia como funcionavam.
 E por isso quero começar algumas seções do site novamente com ideias que eu mesmo desenvolvi e já tenho em mente de como utilizadas e deixar o site ainda mais compatível.
 
-- [Página inicial](https://github.com/Pedrohsl2003)
+<a href="https://github.com/Pedrohsl2003" target="_blank">Página inicial</a>
 
 ### O site é uma versão BETA e ainda tem problemas de compatibilidade.
 
