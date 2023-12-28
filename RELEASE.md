@@ -1,10 +1,8 @@
 # Histórico de Versões, Atualizações e Comentários
 
-# este projeto é a primeira versão finalizada de um site portfólio que estou criando para demonstrar minhas habilidades e projetos futuros.
-# Já recomecei diversas vezes o mesmo projeto, sempre acrescentando novas ideias, e esse é o projeto final com tudo que me agradou. 
-# Minha ideia é que esse site seja meu repositório de projetos e que possa ser utilizado como currículo.
-# Comecei o release no dia 17-12, porém já fazia 2 semanas que tinha começado o projeto em sí.
-# Está ideia de release me chamou bastante a atenção e acho uma boa forma de demonstrar como ocorreu o processo de desenvolvimento do site.
+### Este projeto representa a primeira versão finalizada do meu site portfólio, que destaca minhas habilidades e projetos futuros. Ao longo do desenvolvimento, reiniciei o projeto várias vezes, incorporando novas ideias. Esta versão final reflete todos os elementos que considero essenciais. A intenção é transformar o site em um repositório abrangente de meus projetos, servindo também como um currículo interativo.
+
+### Iniciei a elaboração deste release em 17-12, embora o trabalho efetivo no projeto tenha começado duas semanas antes. Optei por usar esse formato de release para proporcionar uma visão detalhada do processo de desenvolvimento do site.
 
 ## [1.0.0] - 17-12-2023 (17:00h)
 
@@ -19,7 +17,7 @@
  - Fixed Bar
  - Mobile Navbar
 
-### Adicionar 
+### A Ser Adicionado 
 
  - Aba projetos ✅
  - Consertar contatos ✅
@@ -27,7 +25,7 @@
  - Arrumar alguma concordância do texto Ex.(Ínicio por Início) ❌
  - Suporte para Tablet e Celulares ❌
 
-### Testar
+### A ser testado
 
  - Aba de email ❌
  - Novas cores no projeto ❌
@@ -42,14 +40,14 @@
  - Troca de temas com conflito ✅
  - Suporte para Tablet e Celulares
 
-### Adicionado
+### Aprimorado
 
  - Todas as sections arrumadas 
  - Email testado ✅
  - Concordâncias arrumadas ✅
  - .dot em novas áreas do código ✅
 
-### Retirado
+### Removido
  
  - Swiper como carrossel de projetos
 
@@ -69,7 +67,7 @@
  - Favicon ❌
  - Fechar navbar ao clicar em algum link ✅
  
-### Correção
+### Corrigido
 
  - Modo Claro e Escuro ✅
 
@@ -85,9 +83,18 @@
 
 ### Adicionado 
  
- - Favicon 
+ - Favicon 
 
 
-## [2.0] -24-12-2023 (15:00h)
+## [2.0] - 24-12-2023 (15:00h)
 
 # Nesses últimos dias testei o site em diversos aparelhos e vi alguns problemas de compatibilidade por utilizar de métodos que não conhecia tanto, porém também percebi o quanto aprendi com esse projeto e ao fim do projeto, passado alguns dias percebi o quando me desenvolvi através dele, pois conforme os dias foram passando e eu ficava pensando nesse projeto percebi que consegui desenvolver fórmulas para resolver problemas sem ter nem mesmo que pesquisar e isso é um grande desenvolvimento para mim.
+
+# Atualizei o projeto para 2.0 pois acredito que nesses ultimos dias que fiquei sem programar, apenas pensando no projeto e novidades, consegui atualiza-lo para uma versão mais real do que realmente quero, não estava feliz com o resultado final do dia 20/12, porém precisava de um tempo para reformular algumas coisas e nesses dias acredito que consegui pensar e resolver coisas que não estavam bem enxadas.
+
+## [2.1] - 26-12-2023 (16:00h)
+
+### Corrigido
+
+ - Maior Compatibilidade com diversos dispositivos 
+ - Área de projetos que ficava ruim em dispositivos menores
