@@ -1,6 +1,6 @@
-# Site Portfólio
+# Portfólio
 
-<a href="https://pedrohsl2003.github.io/Portfolio/" target="_blank">Link Site</a>
+<a href="https://pedrohsl2003.github.io/Portfolio/" target="_blank">Link Portfólio</a>
 
 # Introdução
 
