@@ -1,10 +1,10 @@
-/* ========== Fonte ========== */
+/* === Fonte === */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* ========== VARIAÇÕES CSS ========== */
+/* === VARIAÇÕES CSS === */
 :root {
 
-    /* ========== Cores ========== */
+    /* === Cores === */
     --first-color: #0080cc;
     --second-color: #ff2040;
     --text-color: #ffffff;
@@ -12,16 +12,16 @@
     --body-color: #010208;
     --second-body-color: #21232c;
 
-    /* ========== Fonte ========== */
+    /* === Fonte === */
     --body-font: 'Poppins', sans-serif;
 
-    /* ============= Espessura Fonte ========== */
+    /* === Espessura Fonte === */
     --font-regular: 400;
     --font-medium: 500;
     --font-semi-bold: 600;
     --font-bold: 700;
 
-    /* ========== z-index ========== */
+    /* === z-index === */
     --z-normal: 1;
     --z-tooltop: 10;
     --z-fixed: 100;
@@ -76,6 +76,7 @@ section {
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+    padding-top: 3rem;
 }
 
 .home-content .dot,
@@ -84,7 +85,7 @@ section {
     color: var(--second-color);
 }
 
-/* ========== Variáveis Tema Claro ========== */
+/* === Variáveis Tema Claro === */
 
 body.light-theme {
     --first-color: #00D245;
@@ -94,7 +95,7 @@ body.light-theme {
     --second-body-color: #21232c;
 }
 
-/* ========== Barra de Navegação ========= */
+/* === Barra de Navegação === */
 
 .navbar {
     position: absolute;
@@ -150,34 +151,25 @@ body.light-theme {
     transition: color .3s;
 }
 
-/* ========== Início ========== */
+/* === Início === */
 
 .home {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50vh 22%;
 }
 
 .home-content {
     font-size: 2.5rem;
-}
-
-.home-content h1 {
-    color: var(--second-text-color);
-    font-weight: var(--font-regular);
+    width: 70%;
     text-align: center;
-}
-
-.home-content span {
-    color: var(--text-color);
-    font-weight: var(--font-semi-bold);
 }
 
 .home-icon {
     font-size: 3.5rem;
     position: absolute;
-    top: 75vh;
+    top: 80vh;
     animation: move 4s ease-in-out infinite;
 }
 
@@ -189,11 +181,11 @@ body.light-theme {
     }
 
     50% {
-        transform: translateY(-2rem);
+        transform: translateY(-3rem);
     }
 }
 
-/* ========== Sobre ========== */
+/* === Sobre === */
 
 .about-content {
     display: flex;
@@ -205,14 +197,13 @@ body.light-theme {
 
 .about-text {
     width: 50rem;
-    font-weight: var(--font-semi-bold);
+    font-weight: var(--font-medium);
 }
 
 .about-text i {
     padding-right: .5rem;
     font-size: 2.5rem;
     font-weight: var(--font-regular);
-    color: var(--text-color);
 }
 
 .about-content h2 {
@@ -235,7 +226,7 @@ body.light-theme {
     border-radius: 50%;
 }
 
-/* ========== Habilidades ========== */
+/* === Habilidades === */
 
 .skills-content {
     height: 100vh;
@@ -253,7 +244,7 @@ body.light-theme {
 
 .skills-title i {
     font-size: 2.5rem;
-    font-weight: initial;
+    font-weight: var(--font-medium);
 }
 
 .skills-info,
@@ -264,7 +255,7 @@ body.light-theme {
 
 .skills-info {
     grid-template-columns: repeat(4, 1fr);
-    gap: 6rem;
+    gap: 4rem;
 }
 
 .skills-data {
@@ -287,7 +278,6 @@ body.light-theme {
 
 .skills-name {
     font-size: 2rem;
-    margin-bottom: .1rem;
 }
 
 .skills-subtitle {
@@ -322,13 +312,19 @@ body.light-theme {
     }
 }
 
-/* ========== Projetos ========== */
+/* === Projetos === */
 
 .projects-container {
-    row-gap: 4rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.projects-card {
+    text-align: center;
 }
 
 .projects-link {
@@ -337,18 +333,18 @@ body.light-theme {
     overflow: hidden;
 }
 
-.projects-img {
+.projects-img{
     filter: grayscale(1);
     transition: filter .5s, transform .5s;
     width: 25rem;
     border-radius: 2rem;
 }
 
-.projects-icon {
+.projects-link i {
     position: absolute;
     top: 1.8rem;
     right: 1.8rem;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     color: var(--first-color);
     transition: transform .4s;
 }
@@ -358,7 +354,8 @@ body.light-theme {
     filter: none;
 }
 
-.projects-link:hover .projects-icon {
+
+.projects-link:hover .ri-arrow-right-circle-line {
     transform: translate(.5rem, -.5rem) rotate(-30deg);
 }
 
@@ -376,8 +373,8 @@ body.light-theme {
 .contact-container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-top: 18rem;
+    justify-content: space-around;
+    margin-top: 16rem;
 }
 
 .contact-title {
@@ -507,7 +504,7 @@ body.light-theme {
     color: hsl(207, 56%, 45%);
 }
 
-/* ========== Rodapé ========== */
+/* === Rodapé === */
 
 .footer-container {
     padding: 3rem 0 7rem;
@@ -583,7 +580,7 @@ body.light-theme {
     }
 }
 
-/* ========== Barra de rolagem ========== */
+/* === Barra de rolagem === */
 
 ::-webkit-scrollbar {
     width: 0.7rem;
