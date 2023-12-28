@@ -98,3 +98,13 @@
 
  - Maior Compatibilidade com diversos dispositivos 
  - Área de projetos que ficava ruim em dispositivos menores
+
+## [2.2] - 28-12-2023 (17:00h) 
+
+### Finalizado 
+
+ - Correção da compatibilidade com diversos dispositivos
+
+### Trocado
+
+ - Imagem de Favicon 
